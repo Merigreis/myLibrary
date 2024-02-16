@@ -43,4 +43,12 @@ public class BookReview {
     public void setDate(LocalDate date) {
         this.date = date;
     }
+
+    public Book getFkBook() {
+        return fkBook;
+    }
+
+    public void setFkBook(Book fkBook) {
+        this.fkBook = fkBook;
+    }
 }
